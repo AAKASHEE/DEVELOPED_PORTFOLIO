@@ -2,6 +2,7 @@ import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { motion } from "framer-motion";
+import Language from "./Language";
 
 const Project = ({ data, index }) => {
   return (
@@ -22,10 +23,16 @@ const Project = ({ data, index }) => {
           {data.description}
         </p>
 
-        <div className="text-sm flex flex-wrap gap-5">
+        <div className="text-sm flex items-center flex-wrap gap-5">
           <p className="secondFont">Technologies used:</p>
           {data.technologies.map((tech, index) => (
-            <p key={index} className="mainFont">{tech}</p>
+            <div
+              key={index}
+              className="flex gap-2 content-center text-black bg-white rounded-full p-2"
+            >
+              <img src={tech.imgUrl} alt="" className="w-4 h-4" />
+              <p className="text-xs font-semibold my-auto">{tech.name}</p>
+            </div>
           ))}
         </div>
         <motion.a
@@ -39,7 +46,7 @@ const Project = ({ data, index }) => {
       </div>
       <motion.div
         whileHover={{ scale: [1.0, 1.1, 1.0] }}
-        transition={{duration: 0.6}}
+        transition={{ duration: 0.6 }}
         className="lg:w-3/5 border rounded-lg overflow-hidden"
       >
         <img src={data.image} alt="" className="w-full" />
