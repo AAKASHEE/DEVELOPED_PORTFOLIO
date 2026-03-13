@@ -12,7 +12,7 @@ function Navbar() {
           href="/"
           className="mainFont font-bold text-xl lg:text-3xl text-blue-500 text-start hover:scale-125 transition-all duration-300 ease-in"
         >
-          THEDON
+          AAKASHE
           <span className="text-white ">
             .<span className="underline">DEV</span>
           </span>

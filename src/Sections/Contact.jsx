@@ -2,30 +2,26 @@ import {
   faFacebook,
   faGithub,
   faLinkedin,
-  faTiktok,
   faXTwitter,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 
 const Contact = () => {
   const links = [
     {
       icon: faFacebook,
-      link: "https://www.facebook.com/victor.jack.7351",
+      link: "https://www.facebook.com/",
     },
     {
       icon: faGithub,
       link: "https://github.com/AAKASHEE",
     },
     {
-      icon: faTiktok,
-      link: "https://www.tiktok.com/@victorwritecodes",
-    },
-    {
       icon: faXTwitter,
-      link: "https://x.com/iamvictorjack",
+      link: "https://x.com/AAKASHEXX",
     },
     {
       icon: faLinkedin,
@@ -33,7 +29,7 @@ const Contact = () => {
     },
     {
       icon: faYoutube,
-      link: "https://www.youtube.com/@iamvictorjack",
+      link: "https://www.youtube.com/@AAKASHE",
     },
   ];
   return (
@@ -76,8 +72,22 @@ const Contact = () => {
           </a>
         ))}
       </div>
+      <div className="flex justify-center mb-10">
+  <button
+    onClick={scrollToTop}
+    className="border border-blue-500 p-3 rounded-full hover:bg-blue-500 transition-all duration-300"
+  >
+    <FontAwesomeIcon icon={faArrowUp} className="text-white w-5 h-5" />
+  </button>
+</div>
     </div>
   );
+};
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
 };
 
 export default Contact;
