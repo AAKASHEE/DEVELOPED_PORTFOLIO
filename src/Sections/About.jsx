@@ -21,25 +21,17 @@ function About() {
 
           <div className="mt-10 text-xs lg:text-base secondFont ">
             <p className="text-white">
-              I'm Victor Jack, a problem solver, critical thinker, and leader
-              passionate about transforming complex challenges into elegant,
-              user-focused solutions. My journey in tech began in 2020 with a
-              deep curiosity for programming and a desire to create my own
-              games. That initial spark quickly evolved into a full-blown
-              passion for technology and innovation. Over the past five years,
-              I've had the privilege of collaborating with talented individuals
-              across the tech space, including the game development industry.
-              Alongside technical growth, building a game development community
-              has given me the opportunity to develop valuable skills beyond
-              code including leadership, communication, event organization, and
-              strategic networking.
+             I'm AAKASHEE, a problem solver and curious creator who enjoys turning ideas into meaningful digital experiences. My journey into technology started with photography. While capturing and editing photos, I wanted a platform where I could showcase my work online, which sparked my interest in building my own website. That curiosity led me into the world of web development, where I began learning how websites work and how to design platforms that present ideas and creativity effectively.
+
+As I explored deeper into programming, my interest naturally expanded beyond building interfaces to understanding how efficient algorithms and problem-solving work behind the scenes. This pushed me toward competitive programming, where I enjoy solving challenging problems and strengthening my logical thinking.
+
+Over time, this path has helped me grow not only technically but also creatively—combining design, development, and analytical thinking to build meaningful solutions and continuously improve as a developer.
             </p>
             <br />
             <p>
-              Today, I combine creativity with logic to build impactful
-              experiences whether it's through design, development, or leading
-              collaborative initiatives. I'm driven by a constant desire to
-              learn, improve, and contribute to meaningful projects in tech.
+             Today, I blend creativity with analytical thinking to build meaningful digital experiences—whether through thoughtful design, 
+             innovative development, or leading collaborative initiatives. I'm driven by a constant curiosity to learn, refine my skills, 
+             and contribute to impactful technology projects.
             </p>
             <br />
             <div>

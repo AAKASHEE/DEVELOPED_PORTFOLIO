@@ -17,7 +17,7 @@ const Contact = () => {
     },
     {
       icon: faGithub,
-      link: "https://github.com/thedon-dev",
+      link: "https://github.com/AAKASHEE",
     },
     {
       icon: faTiktok,
@@ -29,7 +29,7 @@ const Contact = () => {
     },
     {
       icon: faLinkedin,
-      link: "https://www.linkedin.com/in/victorjackadokiye?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      link: "https://www.linkedin.com/in/aakashe/",
     },
     {
       icon: faYoutube,
@@ -56,14 +56,14 @@ const Contact = () => {
 
       <div className="grid place-content-center">
         <a
-          href="https://wa.me/2349057696490"
+          href="https://wa.me/918861653961"
           className="mainFont my-10 px-4 py-3 mx-auto font-semibold text-lg rounded border border-blue-500 hover:bg-blue-500 "
         >
           Text me!
         </a>
       </div>
 
-      <p className="text-center my-10 mainFont">Built by Victor Jack</p>
+      <p className="text-center my-10 mainFont">Built by AAKASHE</p>
       <div className="flex justify-center content-center p-5 gap-8 w-1/2 mx-auto mb-10">
         {links.map((link, index) => (
           <a href={link.link} className="hover:-mt-2 group" key={index}>

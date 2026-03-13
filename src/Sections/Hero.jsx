@@ -61,7 +61,7 @@ function Hero() {
               transition={{ duration: 1 }}
               className="text-[4rem] lg:text-[7rem] text-nowrap font-bold text-blue-900 mainFont"
             >
-              Victor Jack
+              AAKASHE
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 30 }}
@@ -109,7 +109,7 @@ function Hero() {
 
           <div className="flex items-center flex-row-reverse gap-5 top-[80%] -bottom-[16%] lg:-bottom-[10%] absolute left-0">
             <p className="text-blue-500 secondFont text-sm md:text-xl">
-              viktoh7351@gmail.com
+              aakashpatra253@gmail.com
             </p>
             <div className="h-[1px] w-[50px] md:w-[200px] border border-blue-500 mx-auto "></div>
           </div>

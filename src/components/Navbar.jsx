@@ -18,7 +18,7 @@ function Navbar() {
           </span>
         </motion.a>
 
-        <a href="https://github.com/thedon-dev/">
+        <a href="https://github.com/AAKASHEE">
           <img
             src="https://cdn.simpleicons.org/github/white"
             alt=""
